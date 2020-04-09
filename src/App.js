@@ -1,9 +1,16 @@
+// REACT
 import React from 'react';
+
+// COMPONENTS
+import JobBoard from './components/JobBoard';
+
+// DATA
+import data from './assets/data.json';
 
 function App() {
   return (
     <div>
-      App
+      <JobBoard />
     </div>
   );
 }
