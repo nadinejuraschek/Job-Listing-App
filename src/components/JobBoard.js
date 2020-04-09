@@ -1,9 +1,11 @@
 // REACT
 import React from 'react';
 
-const JobBoard = () => {
+const JobBoard = ({ job }) => {
     return (
-        <div>Job Board</div>
+        <div>
+            <h1 className="text-3xl">{job.company}</h1>
+        </div>
     );
 };
 
