@@ -7,6 +7,7 @@ import App from './App';
 
 // STYLESHEETS
 import './assets/main.css';
+import './assets/index.css';
 
 ReactDOM.render(
     <App />,
